@@ -1,206 +1,176 @@
-# Teste-1
+# Página Inicial
+"""
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>The Legend of Zelda</title>
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Mundo de The Legend of Zelda</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="personagens.html">Personagens</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="autores.html">Autores</a></li>
-            </ul>
-        </nav>
+        <h1>Bem-vindo ao nosso site!</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="characters.html">Personagens</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="authors.html">Autores</a></li>
+        </ul>
+    </nav>
     <main>
-        <section>
-            <h2>Sobre a Série</h2>
-            <p>The Legend of Zelda é uma série de jogos de ação-aventura desenvolvida pela Nintendo.</p>
-            <img src="zelda.jpg" alt="The Legend of Zelda">
-        </section>
+        <h2>Sobre o Jogo/Série/Biografia</h2>
+        <p>Informações relevantes aqui...</p>
     </main>
     <footer>
-        <p>&copy; 2024 The Legend of Zelda Fan Site</p>
+        <p>© 2024 Nosso Site</p>
     </footer>
 </body>
 </html>
+"""
 
+# Página de Personagens
+"""
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Personagens - The Legend of Zelda</title>
+    <title>Personagens</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Personagens</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="personagens.html">Personagens</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="autores.html">Autores</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <h2>Personagens Principais</h2>
+    <nav>
         <ul>
-            <li>Link</li>
-            <li>Zelda</li>
-            <li>Ganondorf</li>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="authors.html">Autores</a></li>
         </ul>
-        <table>
-            <tr>
-                <th>Nome</th>
-                <th>Tipo</th>
-                <th>Poderes</th>
-            </tr>
-            <tr>
-                <td>Link</td>
-                <td>Herói</td>
-                <td>Espada, Arco</td>
-            </tr>
-            <tr>
-                <td>Zelda</td>
-                <td>Princesa</td>
-                <td>Magia</td>
-            </tr>
-        </table>
+    </nav>
+    <main>
+        <h2>Lista de Personagens</h2>
+        <ul>
+            <li>Personagem 1</li>
+            <li>Personagem 2</li>
+            <li>Personagem 3</li>
+        </ul>
     </main>
     <footer>
-        <p>&copy; 2024 The Legend of Zelda Fan Site</p>
+        <p>© 2024 Nosso Site</p>
     </footer>
 </body>
 </html>
+"""
 
+# Página de Contato
+"""
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contato - The Legend of Zelda</title>
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Contato</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="personagens.html">Personagens</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="autores.html">Autores</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="characters.html">Personagens</a></li>
+            <li><a href="authors.html">Autores</a></li>
+        </ul>
+    </nav>
     <main>
-        <h2>Envie-nos uma Mensagem</h2>
-        <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Enviar">
         </form>
     </main>
     <footer>
-        <p>&copy; 2024 The Legend of Zelda Fan Site</p>
+        <p>© 2024 Nosso Site</p>
     </footer>
 </body>
 </html>
+"""
 
+# Página dos Autores
+"""
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Autores - The Legend of Zelda</title>
+    <title>Autores</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Autores</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="personagens.html">Personagens</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="autores.html">Autores</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="characters.html">Personagens</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
     <main>
         <h2>Nossos Autores</h2>
-        <p>Autor 1: João Silva - Estudante de Desenvolvimento Web.</p>
-        <p>Autor 2: Maria Oliveira - Apaixonada por jogos e design.</p>
+        <p>Informações sobre os autores aqui...</p>
     </main>
     <footer>
-        <p>&copy; 2024 The Legend of Zelda Fan Site</p>
+        <p>© 2024 Nosso Site</p>
     </footer>
 </body>
 </html>
+"""
 
+# CSS
+"""
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 20px 0;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color: #007bff;
 }
 
 main {
-    padding: 20px;
+    margin: 20px 0;
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
     bottom: 0;
-    width: 100%;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 8px;
-    text-align: left;
-}
+"""
